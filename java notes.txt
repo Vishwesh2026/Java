@@ -1,0 +1,304 @@
+package section (optional)
+
+import section (optional) --> predefined packages
+
+javac --version --> to check the version
+
+notepad filename.java --> to createa a java file
+
+javac filename.java--> compilation
+
+java classname --> for execution
+
+/*public class Helloworld --> to define the class as public Youu should define the class name as filename*/
+
+
+class MyClass{
+
+       public static void main(String args[])-->C style
+       public static void main(String[] args)--> Java style
+     {
+          System.out.println("Hello World")--> print with in a new line
+	  System.out.print("Hello World")--> print in the same line
+	  
+     }
+}
+ 
+
+8 primitive data types
+
+int --> 32 bit signed integer
+Range : -2^31 to 2^31 - 1
+      : -2147483648 to 2147483648
+
+long --> 64 bit signed integer
+Range : -2^63 to 2^63 -1
+
+byte --> 8 bit signed integer
+Range : -2^7 to 2^7 -1
+
+short --> 16 bit signed integer 
+Range : -2^15 to 2^15 -1
+
+float  
+
+
+
+Identifiers 
+
+1.SHould not start with a digit , it can start with an alphabet 
+
+2. No other special character is allowed except underscore(_) , a dollar sign ($)
+
+3. No whitespacesd.(First Name --> Invalid,Firstnam ) 
+
+4. Keywords should not be used again 
+
+5. 
+
+
+
+
+A name given to 
+1. A variable 
+2. A function (method) 
+3. A class 
+
+
+Built_in class belongs a package
+package in java is a collection of classes
+
+Scanner--> java.util.
+
+methods of scaners
+
+nextInt() --> read integers
+nextFloat() --> read float values
+nextDouble() --> Used to read double values
+next() --> To read a string without spaces
+nextline() --> To read a string with spaces
+next().charAt(0)--> to read the character of the particular index
+
+
+
+import the package
+import  java.util.Scanner;
+
+
+
+java.lang packages comes by default into every java program
+
+String
+Math
+Integer
+Float
+
+
+Operators:
+
+Operator is the symbol which tells the compiler to perform certain opertion  
+
+Arithematic operators:
+(+,-,*,/,%)
+
+Logical Operators:
+(&&,||,!)
+
+Relational Operators:
+(<,>,<=,>=,==)
+
+Conditional Operator:
+-----------------------
+
+Syntax:
+------
+
+a?b:c
+
+Assignment Operators:
+----------------------
+
+a=10;
+b=20;
+
+Instanceof:
+-------------
+Scanner sc=new Scanner(System.in)-----> Scanner is a predefined class
+String s='Thub';
+s instanceof String;
+
+
+new:-->is a keyword or a operator which creates an object
+------
+
+syntax:
+--------
+
+class_name objname = new classname();
+
+
+
+
+
+
+
+format specifies
+
+
+%[flag][width][.presision]conversion_character
+
+for example:
+
+here a = 123
+
+System.out.printf("%07d",a)
+
+output:
+0000000123
+
+
+
+%.2f
+
+8
+byte --> %d
+short --> %d
+int --> %d
+long --> %d
+float --> %f
+double --> %f
+char --> %c
+boolean --> %b
+
+
+
+
+
+System.out.printf("%10d",a) --> right justification
+
+
+System.out.printf("%-10d",a) ---> left justification(we can't use flag for the left justification because it changes the value of the function)
+
+
+if 
+else if
+else
+
+Strings
+characters
+ASCII - 264 characters
+Unicode - more than ASCII
+
+'a'
+
+uppercase  ch >= 'A' or ch <= 'Z'
+lowercase  ch >= 'a' or ch <= 'z'
+whiteSpace ch == ' ' or ch == 32
+digit      ch >= '0' and ch <= '9' 
+ alphabet   (ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'Z')
+
+
+Wrapper classes
+To provide the object representation for primitive types
+
+primitive types                  Wrapper class
+int                                 Integer
+float                               Float
+char                                Character
+double                              Double
+long                                long
+boolean                             Boolean
+byte                                Byte
+short                               Short
+
+Auto Boxing 
+Automatic conversion that java compiler does between a primitive type and Wrapper class
+
+Auto Unboxing
+Automatic conversion that java compiler does between a Wrapper class object and it's primitive type.
+
+interface
+OOD --  object oriented  design
+
+1.You can achieve 100% abstration, using  interfaces only.
+
+2.java doesn't support Multiple-Inheritance using classes
+
+3.Interfaces support Multiple-Inheritance
+
+4.Interfaces contains inly abstract methods
+
+5.You need to write only the declaration of the method in the Interfaces
+
+6.clasees can implement interface usinf 'implements' keyword
+
+7.The class that implements ann interface should provide  concerete implementation of the methods in the interface
+
+8.interface MyInterface{
+      methods
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

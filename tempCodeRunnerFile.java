@@ -1,0 +1,1 @@
+java -classpath ";C:\Users\vishu\Documents\connector\mysqlconnector.jar" dbconnect
